@@ -4,7 +4,7 @@ public class Animal {
 
     String nombre;
     String genero;
-    double peso=1;
+    double peso;
     Animal pareja;
 
 
@@ -13,7 +13,11 @@ public class Animal {
         this.peso = peso;
     }
 
-    void encontrarPareja(Animal pareja){
+    public Animal() {
+
+    }
+
+    public void encontrarPareja(Animal pareja){
         this.pareja=pareja;
     }
 

@@ -1,32 +1,29 @@
-package org.example;
+    package org.example;
 
-public class Zoologico {
-    public static void main(String[] args) {
-
-
-        Animal animal1 = new Animal()
-        animal1.nombre="Cebra";
-        animal1.genero="F";
+    public class Zoologico {
+        public static <animal> void main (String[] args) {
 
 
-        animal animal2 = new animal();
-        animal2.nombre="Caballo";
-        animal2.genero="M";
+            Animal animal1 = new Animal();
+            animal1.nombre="Caballo";
+            animal1.genero="F";
 
 
-        animal1.encontrarPareja(animal2);
+            Animal animal2 = new Animal();
+            animal2.nombre="Cebra";
+            animal2.genero="M";
 
 
-        Familia familia = new Familia(animal2,animal1);
+            animal1.encontrarPareja(animal2); //Un animal consigue pareja
 
 
-        familia.tenerHijo("Cebrallo")
+            Familia familia = new Familia(animal2, animal1);
 
 
-        familia.imprimirFamilia();
+            familia.tenerHijo("Cebrallo");
 
 
+            familia.imprimirFamilia();
 
-
+        }
     }
-}

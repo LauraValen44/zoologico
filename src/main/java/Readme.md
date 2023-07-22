@@ -1,0 +1,10 @@
+1= El proyecto consta de tres clases: Animal, Familia y Zoologico
+2= La clase Zoologico contiene el punto de entrada principal del programa.
+3= Se instancian únicamente dos objetos de la clase Animal: animal1 y animal2.
+4= La clase Animal cuenta con cuatro atributos: nombre, género, peso y pareja.
+5= De los atributos de la clase Animal, el tipo String y el tipo Animal (para la pareja) no son primitivos, lo que suma un total de tres atributos no primitivos.
+6= Si eliminamos la línea 17 de la clase Zoologico, no sería posible que un animal tenga un hijo, ya que no se inicializaría correctamente la pareja.
+7= La clase Familia contiene tres métodos en total.
+8= El método tenerHijo() de la clase Familia recibe únicamente un parámetro, que es el nombre del hijo.
+9= El constructor de la clase Familia inicializa dos atributos: el papá y la mamá.
+10= El método tenerHijo() de la clase Familia no retorna ningún valor; su tipo de retorno es void.
